@@ -31,6 +31,8 @@ Make sure you have Python installed, as well as discord.py. With these, you can 
 
 Most importantly, the bot first needs a bot token to work. To get a token, you can use the following tutorial: https://www.writebots.com/discord-bot-token/
 
-That tutorial also provides instructions on how to add a bot to a Discord server. Note that for "scopes", just choose "bot", whereas for "bot permissions", you need to at least allow for "manage channels" and "send messages" to get the functionality of the bot.
+Place the token between the single-quotes in configuration.py.
+
+That tutorial also provides instructions on how to add a bot to a Discord server. Note that for "scopes", just choose "bot", whereas for "bot permissions", you need to at least allow for "manage channels" and "send messages" to get the current functionality of the bot.
 
 After this, you can run the bot using Python, and it should come online and work!
