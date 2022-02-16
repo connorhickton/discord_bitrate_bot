@@ -1,7 +1,7 @@
 ## discord_bitrate_bot
-A Discord.py bot which can adjust a voice channel's bitrate depending on the number of users connected. Programmed to be run on a Raspberry Pi (any type of Pi except Pico should do).
+A Discord.py bot which can adjust a voice channel's bitrate depending on the number of users connected. Programmed to be run on a Raspberry Pi, but can work on either Linux or Windows.
 
-Also allows users to write and view entries to lists related to video game and movie ideas.
+Also has features which allows users to write and view entries to lists related to video game and movie ideas.
 
 # What Can This Be Used For?
 
@@ -26,6 +26,8 @@ You can customize how many users must be in a voice channel before the bitrate c
 If you want to whitelist a voice channel, get the channel's ID by right-clicking on it and selecting "Copy ID" (Make sure you have developer mode enabled in Settings > Advanced > Developer Mode), and then pasting it into the list in configuration.py. If there's more than one channel to whitelist, put commas between the values.
 
 # Setup
+
+Make sure you have Python installed, as well as discord.py. With these, you can run the bot on either Windows or Linux (though I have not rigorously tested running on Windows).
 
 Most importantly, the bot first needs a bot token to work. To get a token, you can use the following tutorial: https://www.writebots.com/discord-bot-token/
 
